@@ -63,18 +63,34 @@
 //    }
 //}
 //N*(n+1)的總和
-//import java.util.Scanner;
-//public class Main{
-//    public static void main(String[] args) {
-//        Scanner scn = new Scanner(System.in);
-//        int n = scn.nextInt();
-//        int sum = 0;
-//        for (int i = 1; i <=n;i++){
-//            sum = sum+i*(i+1);
+//        import java.util.Scanner;
+//        public class Main{
+//        public static void main(String[] args) {
+//        Scanner sc = new Scanner(System.in);
+//        int n = sc.nextInt();
+//
+//        int sum = 0,ct;
+//        boolean flag = true;
+//        for (int i=2;i<=n;i++){
+//        ct = i;
+//        for (;ct!=1;){
+//        if (ct%2==0){
+//        ct /= 2;
+//        }else if (ct%3==0){
+//        ct /= 3;
+//        }else if (ct%5==0){
+//        ct /= 5;
+//        }else {
+//        flag = false;
+//        break;
+//        }
+//        }
+//        if (flag)sum +=i;
+//        flag = true;
 //        }
 //        System.out.println(sum);
-//    }
-//}
+//        }
+//        }
 //數字總和
 //import java.util.Scanner;
 //public class Main{
@@ -89,15 +105,15 @@
 //    }
 //}
 //99乘法表
-import java.util.Scanner;
-public class Main{
-    public static void main(String[] args) {
-        Scanner scn = new Scanner(System.in);
-        for (int i = 1; i <= 9 ;i++){
-            for (int j=1 ;j<=9; j++){
-                System.out.println((i*j)+"\t");
-            }
-            System.out.println();
-        }
-    }
-}
+//import java.util.Scanner;
+//public class Main{
+//    public static void main(String[] args) {
+//        Scanner scn = new Scanner(System.in);
+//        for (int i = 1; i <= 9 ;i++){
+//            for (int j=1 ;j<=9; j++){
+//                System.out.println((i*j)+"\t");
+//            }
+//            System.out.println();
+//        }
+//    }
+//}
