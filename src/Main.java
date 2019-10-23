@@ -34,6 +34,7 @@ public class Main{
                 minVal=v1;
             }
         }
-        System.out.println(v1);
+        System.out.printf("%.2f" , maxVal);
+        System.out.printf("%.2f" , minVal);
     }
 }
