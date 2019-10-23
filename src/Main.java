@@ -1,3 +1,4 @@
+//1~100
 //public class Main {
 //
 //    public static void main(String[] args) {
@@ -7,6 +8,7 @@
 //            System.out.println("This sum is" + sum + ".\n");
 //        }}
 //    }
+//計算正整數被3整除之數值
 //import java.util.Scanner;
 //public class Main{
 //    public static void main(String[] args) {
@@ -19,6 +21,7 @@
 //        System.out.println(sum);
 //    }
 //}
+//最大值最小值
 //import java.util.Scanner;
 //public class Main{
 //    public static void main(String[] args) {
@@ -38,6 +41,7 @@
 //        System.out.printf("%.2f" , minVal);
 //    }
 //}
+//質數判斷
 //import java.util.Scanner;
 //public class Main{
 //    public static void main(String[] args) {
@@ -58,15 +62,42 @@
 //        }
 //    }
 //}
+//N*(n+1)的總和
+//import java.util.Scanner;
+//public class Main{
+//    public static void main(String[] args) {
+//        Scanner scn = new Scanner(System.in);
+//        int n = scn.nextInt();
+//        int sum = 0;
+//        for (int i = 1; i <=n;i++){
+//            sum = sum+i*(i+1);
+//        }
+//        System.out.println(sum);
+//    }
+//}
+//數字總和
+//import java.util.Scanner;
+//public class Main{
+//    public static void main(String[] args) {
+//        Scanner scn = new Scanner(System.in);
+//        int n = scn.nextInt();
+//        int sum = 0;
+//        boolean flag = true;
+//        for (int i = 2 ; i >= n ; i ++ ){
+//
+//        }
+//    }
+//}
+//99乘法表
 import java.util.Scanner;
 public class Main{
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
-        int n = scn.nextInt();
-        int sum = 0;
-        for (int i = 1; i <=n;i++){
-            sum = sum+i*(i+1);
+        for (int i = 1; i <= 9 ;i++){
+            for (int j=1 ;j<=9; j++){
+                System.out.println((i*j)+"\t");
+            }
+            System.out.println();
         }
-        System.out.println(sum);
     }
 }
