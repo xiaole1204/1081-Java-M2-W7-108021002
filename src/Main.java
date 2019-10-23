@@ -63,9 +63,22 @@
 //    }
 //}
 //N*(n+1)的總和
-//        import java.util.Scanner;
-//        public class Main{
-//        public static void main(String[] args) {
+//import java.util.Scanner;
+//public class Main{
+//    public static void main(String[] args) {
+//        Scanner scn = new Scanner(System.in);
+//        int n = scn.nextInt();
+//        int sum = 0;
+//        for (int i = 1; i <=n;i++){
+//            sum = sum+i*(i+1);
+//        }
+//        System.out.println(sum);
+//    }
+//}
+//數字總和
+//import java.util.Scanner;
+//public class Main{
+//public static void main(String[] args) {
 //        Scanner sc = new Scanner(System.in);
 //        int n = sc.nextInt();
 //
@@ -91,19 +104,6 @@
 //        System.out.println(sum);
 //        }
 //        }
-//數字總和
-//import java.util.Scanner;
-//public class Main{
-//    public static void main(String[] args) {
-//        Scanner scn = new Scanner(System.in);
-//        int n = scn.nextInt();
-//        int sum = 0;
-//        boolean flag = true;
-//        for (int i = 2 ; i >= n ; i ++ ){
-//
-//        }
-//    }
-//}
 //99乘法表
 //import java.util.Scanner;
 //public class Main{
